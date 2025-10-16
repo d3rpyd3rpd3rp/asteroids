@@ -16,7 +16,7 @@ def main():
                 return
         
         # game update functions
-        
+        player.update(dt)
         
         # game draw functions
         screen.fill("black")
